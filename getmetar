@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd src
+gcc getmetar.c -o ../bin/getmetar.exe
+cd ../bin
+./getmetar.exe
+chmod 777 wgetmetar
+./wgetmetar
